@@ -1,0 +1,22 @@
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <script src="linkers/weather.js"></script>
+</head>
+
+<body>
+  <br>
+  <div class="container">
+    <button class="btn btn-info"><a style="color:black" href="gui.html">< 戻る</a></button>
+
+    <div class="jumbotron">
+      <h1>天気予報</h1>
+      <h2>お住いの地域を入力すると気象庁のWEBサイトから天気予報を表示します。</h2>
+    </div>
+    <br>
+    <label>お住いの地域を入力してください</label>
+    <input id="city" type="text" placeholder="City"/>
+    <button class="btn btn-success" onclick="get_weather()">検索</button>
+
+  </div>
+<body>
